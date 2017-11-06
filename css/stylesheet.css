@@ -1,3 +1,25 @@
 body {
   font-family: 'Helvetica', 'Arial', 'sans-serif';
 }
+
+nav ul, footer ul {
+  list-style-type: none;
+}
+
+nav ul li, footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 1px solid #000000;
+}
